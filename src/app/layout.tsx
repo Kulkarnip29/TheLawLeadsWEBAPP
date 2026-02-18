@@ -82,7 +82,7 @@ const structuredData = {
     "addressCountry": "IN"
   },
   "sameAs": [
-    // "https://www.facebook.com/thelawleads", // Replace with actual social links
+    "https://www.linkedin.com/in/siddheshwar-patane-0736163b1?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     // "https://twitter.com/thelawleads",
     // "https://www.instagram.com/thelawleads"
   ],

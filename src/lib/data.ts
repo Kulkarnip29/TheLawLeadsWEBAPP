@@ -244,30 +244,30 @@ export const detailedCourses: Record<string, any> = {
 
 export const faculty = [
   {
-    name: "Dr. Alok Sharma",
-    title: "Senior Faculty",
-    bio: "Expert in Constitutional Law with 15+ years of experience.",
+    name: "Ms. Shraddha Choudhary",
+    title: "Meet The Founder",
+    bio: "SET, NET(JRF)PH.D PURSUING, 5+ years of teaching experience, and a passion for empowering law aspirants.",
     image: {
       imageUrl: "/Photos/Faculty-2.jpg",
       description: "Profile photo of Dr. Alok Sharma",
-      imageHint: "man portrait"
+      imageHint: "Director and Founder"
     }
   },
 {
-    name: "Justice (Ret.) R. K. Verma",
-    title: "Judicial Mentor",
-    bio: "Former High Court Judge mentoring judiciary aspirants.",
+    name: "Mr. Siddheshwar Patane",
+    title: "Managing Director",
+    bio: "Belive in yourself. Stay focused. Success will follow.",
     image: {
       imageUrl: "/Photos/faculty-3.jpg",
       description: "Profile photo of Justice R. K. Verma",
-      imageHint: "man portrait suit"
+      imageHint: "MD"
     }
   },
 
   {
-    name: "Adv. Priya Singh",
-    title: "Criminal Law Expert",
-    bio: "Specialist in Criminal Litigation and Trial Practice.",
+    name: "Ms. Aishwarya Kulkarni",
+    title: "Legal Head",
+    bio: "University Gold Medalist",
     image: {
       imageUrl: "/Photos/faculty-1.png",
       description: "Profile photo of Adv. Priya Singh",
@@ -276,9 +276,9 @@ export const faculty = [
   },
   
   {
-    name: "Dr. Neha Gupta",
-    title: "Academic Scholar",
-    bio: "Expert in International Law and Research.",
+    name: "Ms. Kasturi Pathrudkar",
+    title: "Legal Analyst",
+    bio: "Expert in  Law and Research.",
     image: {
       imageUrl: "/Photos/faculty-4.jpg",
       description: "Profile photo of Dr. Neha Gupta",
@@ -286,8 +286,8 @@ export const faculty = [
     }
   },
   {
-    name: "Mr. Sameer Khan",
-    title: "Corporate Law Mentor",
+    name: "Mr. Amit Kathare",
+    title: "Legal Analyst",
     bio: "Specialist in Corporate and Commercial Law.",
     image: {
       imageUrl: "/Photos/faculty-5.jpg",

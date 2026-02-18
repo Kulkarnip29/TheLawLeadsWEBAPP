@@ -36,7 +36,7 @@ export default function Navbar() {
       <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center">
-            <Image src="/logo.png" alt="The Law Leads Logo" width={160} height={40} priority />
+            <Image src="/TLLLOG.png" alt="The Law Leads Logo" width={160} height={40} priority />
           </Link>
 
           <div className="hidden md:flex items-center gap-6">
