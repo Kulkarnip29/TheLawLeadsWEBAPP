@@ -1,0 +1,125 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A modern, well-lit library, representing knowledge and justice.",
+      "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=1920&auto=format&fit=crop",
+      "imageHint": "library books"
+    },
+    {
+        "id": "faculty-1",
+        "description": "Profile photo of Dr. Alok Sharma",
+        "imageUrl": "/Photos/faculty-1.png",
+        "imageHint": "man portrait"
+      },
+
+    {
+      "id": "faculty-2",
+      "description": "Profile photo of Adv. Priya Singh",
+      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDg1NDQ1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "faculty-3",
+      "description": "Profile photo of Justice (Ret.) R. K. Verma",
+      "imageUrl": "https://images.unsplash.com/photo-1627379114594-7aff6664cd94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdCUyMHN1aXR8ZW58MHx8fHwxNzcwODE3NTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait suit"
+    },
+    {
+      "id": "faculty-4",
+      "description": "Profile photo of Dr. Neha Gupta",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDg1NDQ1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "faculty-5",
+      "description": "Profile photo of Mr. Sameer Khan",
+      "imageUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4NDk1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait professional"
+    },
+    {
+      "id": "faculty-6",
+      "description": "Profile photo of Adv. Meera Desai",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDg1NDQ1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "blog-1",
+      "description": "Image for blog post on acing CLAT PG",
+      "imageUrl": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGF3JTIwYm9va3N8ZW58MHx8fHwxNzcwODM1MTc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law books"
+    },
+    {
+      "id": "blog-2",
+      "description": "Image for blog post on judiciary exam myths",
+      "imageUrl": "https://images.unsplash.com/photo-1767972463877-b64ba4283cd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnYXZlbCUyMGNvdXJ0fGVufDB8fHx8MTc3MDg5OTMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gavel court"
+    },
+    {
+      "id": "blog-3",
+      "description": "Image for blog post on LLM entrances",
+      "imageUrl": "https://images.unsplash.com/photo-1559135197-8a45ea74d367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx1bml2ZXJzaXR5JTIwY2FtcHVzfGVufDB8fHx8MTc3MDgzMTIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university campus"
+    },
+    {
+      "id": "about-us-image",
+      "description": "Image showing the institute's classroom or building",
+      "imageUrl": "https://images.unsplash.com/photo-1762176263996-a0713a49ee4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBjbGFzc3Jvb218ZW58MHx8fHwxNzcwODE3NTI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern classroom"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Photo of Ananya Deshmukh",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDg1NDQ1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smile"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Photo of Rohan Joshi",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA4NDk1Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man professional"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Photo of Priya Mehta",
+      "imageUrl": "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc3MDk0MjQzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Photo of Sameer Patil",
+      "imageUrl": "https://images.unsplash.com/photo-1615109398623-88346a601842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc3MDk0MjQzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "marquee-1",
+      "description": "Students receiving achievement awards on stage",
+      "imageUrl": "https://images.unsplash.com/photo-1764874299025-d8b2251f307d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhd2FyZCUyMGNlcmVtb255fGVufDB8fHx8MTc3MDk4MzM1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "award ceremony"
+    },
+    {
+      "id": "marquee-2",
+      "description": "A glimpse from our annual law conference",
+      "imageUrl": "https://images.unsplash.com/photo-1571645163064-77faa9676a46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb25mZXJlbmNlJTIwZXZlbnR8ZW58MHx8fHwxNzcwOTg0NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "conference event"
+    },
+    {
+      "id": "marquee-3",
+      "description": "Guest lecture by a renowned legal expert",
+      "imageUrl": "https://images.unsplash.com/photo-1647432814308-a0b790a7a62a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxndWVzdCUyMGxlY3R1cmV8ZW58MHx8fHwxNzcwOTg0NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guest lecture"
+    },
+    {
+      "id": "marquee-4",
+      "description": "Winners of the inter-college moot court competition",
+      "imageUrl": "https://images.unsplash.com/photo-1612468552791-27742d57610b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wZXRpdGlvbiUyMHdpbm5lcnN8ZW58MHx8fHwxNzcwOTg0NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "competition winners"
+    },
+    {
+      "id": "marquee-5",
+      "description": "Announcement for new batches starting soon",
+      "imageUrl": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhbm5vdW5jZW1lbnQlMjBib2FyZHxlbnwwfHx8fDE3NzA5ODQ3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "announcement board"
+    }
+  ]
+}
