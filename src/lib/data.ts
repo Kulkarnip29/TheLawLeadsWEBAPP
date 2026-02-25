@@ -56,17 +56,17 @@ export const courses = [
       tagline: 'Grab the Deal Now!'
     }
   },
-  {
-    slug: 'judiciary-coaching',
-    title: `Judiciary Coaching ${targetExamYear}`,
-    description: 'In-depth preparation for Civil Judge and other state judiciary exams.',
-    icon: 'BookOpen',
-    promo: {
-      badge: 'New Batch',
-      discount: 'Free Demo',
-      tagline: 'Live Interactive Sessions'
-    }
-  },
+  // {
+  //   slug: 'judiciary-coaching',
+  //   title: `Judiciary Coaching ${targetExamYear}`,
+  //   description: 'In-depth preparation for Civil Judge and other state judiciary exams.',
+  //   icon: 'BookOpen',
+  //   promo: {
+  //     badge: 'New Batch',
+  //     discount: 'Free Demo',
+  //     tagline: 'Live Interactive Sessions'
+  //   }
+  //},
   {
     slug: 'clat-pg-prep',
     title: `CLAT PG & LLM Prep ${targetExamYear}`,
@@ -255,11 +255,11 @@ export const faculty = [
   },
 {
     name: "Mr. Siddheshwar Patane",
-    title: "Managing Director",
-    bio: "Belive in yourself. Stay focused. Success will follow.",
+    title: "Founder & Director",
+    bio: "Learn Law, Leads the future.",
     image: {
       imageUrl: "/Photos/faculty-3.jpg",
-      description: "Profile photo of Justice R. K. Verma",
+      description: "Profile photo of Mr. Siddheshwar Patane",
       imageHint: "MD"
     }
   },
@@ -288,7 +288,7 @@ export const faculty = [
   {
     name: "Mr. Amit Kathare",
     title: "Legal Analyst",
-    bio: "Specialist in Corporate and Commercial Law.",
+    bio: "Expert in legal research",
     image: {
       imageUrl: "/Photos/faculty-5.jpg",
       description: "Profile photo of Mr. Sameer Khan",
@@ -309,10 +309,10 @@ export const faculty = [
 
 
 export const studyMaterials = [
-  {
-    title: 'Judiciary Exam Notes',
-    description: 'Complete set of notes covering all subjects for judiciary exams.',
-  },
+  // {
+  //   title: 'Judiciary Exam Notes',
+  //   description: 'Complete set of notes covering all subjects for judiciary exams.',
+  // },
   {
     title: 'CLAT PG Mock Tests',
     description: 'A series of 20+ mock tests with detailed analysis.',
@@ -391,10 +391,10 @@ export const faqs = [
 
 export const aboutContent = {
   title: "Know About The Law Leads (TLL)",
-  description: "The Law Leads is an Indian EdTech platform dedicated to providing accessible, comprehensive, and exam-oriented legal education, supporting students from law entrance examinations to LLM and beyond. We offer university-specific syllabi, exam-focused notes, previous year question papers, and structured guidance for various law entrance and competitive examinations—making quality legal education reachable to every aspirant.",
+  description: "The Law Leads is an online learning platform dedicated to helping students prepare for major lawentrance and competitive exams such as Common Law Admission Test (CLAT), Law Entrance CET,UGC NET (Law), SET Law, and All India Bar Examination (AIBE).",
   standOut: {
     title: "Why We Stand Out",
-    description: "At The Law Leads, we believe that talent should never be limited by resources. Our mission is to empower every student, especially those who never imagined a strong career in Law and the Judiciary, by providing the right guidance and support.",
+    description: "At The Law Leads, we believe that talent should never be limited by resources. Our mission is tosimplify the law and empower every student with the right guidance, quality mentorship, anddedicated support to achieve excellence in the legal field.",
     points: [
       'Intensive and well-structured courses',
       'Qualified, experienced faculties and dedicated mentors',

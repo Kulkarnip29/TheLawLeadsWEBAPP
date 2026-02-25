@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src="/logo.jpg"   // ✅ Correct way
+                src="/icon.jpg"
                 alt="The Law Leads Logo"
                 width={150}
                 height={45}

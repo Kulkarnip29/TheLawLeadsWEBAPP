@@ -29,14 +29,24 @@ export default function Navbar() {
   }, [isMobile]);
 
   return (
-    <header className={cn(
-      "sticky top-0 z-50 transition-all duration-300",
-      isScrolled ? "bg-background/80 backdrop-blur-lg shadow-md" : "bg-transparent"
-    )}>
+    <header
+      className={cn(
+        "sticky top-0 z-50 transition-all duration-300",
+        isScrolled
+          ? "bg-background/80 backdrop-blur-lg shadow-md"
+          : "bg-transparent"
+      )}
+    >
       <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center">
-            <Image src="/TLLLOG.png" alt="The Law Leads Logo" width={160} height={40} priority />
+            <Image
+              src="/icon.jpg"
+              alt="The Law Leads Logo"
+              width={160}
+              height={40}
+              priority
+            />
           </Link>
 
           <div className="hidden md:flex items-center gap-6">
@@ -53,9 +63,13 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-2">
-            <Button asChild className='hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground'>
+            <Button
+              asChild
+              className="hidden md:flex bg-accent hover:bg-accent/90 text-accent-foreground"
+            >
               <Link href="#book-demo">Book a Demo</Link>
             </Button>
+
             <Button
               variant="ghost"
               size="icon"
@@ -69,7 +83,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
       {isOpen && isMobile && (
         <div className="md:hidden bg-background/95 backdrop-blur-lg absolute top-full left-0 w-full shadow-lg">
           <div className="flex flex-col items-center gap-4 p-6">
@@ -83,8 +96,15 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Button asChild className='w-full mt-4 bg-accent hover:bg-accent/90 text-accent-foreground' size="lg">
-              <Link href="#book-demo" onClick={() => setIsOpen(false)}>Book a Demo</Link>
+
+            <Button
+              asChild
+              className="w-full mt-4 bg-accent hover:bg-accent/90 text-accent-foreground"
+              size="lg"
+            >
+              <Link href="#book-demo" onClick={() => setIsOpen(false)}>
+                Book a Demo
+              </Link>
             </Button>
           </div>
         </div>

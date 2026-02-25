@@ -32,7 +32,7 @@ export default function Contact() {
                                 <CardTitle className="text-primary">Email Us</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <a href="mailto:thelawleads1@gmail.com" className="text-foreground/90 hover:text-accent transition-colors">info@thelawleads.com</a>
+                                <a href="mailto:thelawleads1@gmail.com" className="text-foreground/90 hover:text-accent transition-colors">thelawleads1@gmail.com</a>
                             </CardContent>
                         </Card>
                          <Card className="glassmorphism">
@@ -41,7 +41,7 @@ export default function Contact() {
                                 <CardTitle className="text-primary">Call Us</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <a href="tel:+919545661315" className="text-foreground/90 hover:text-accent transition-colors">+91 98765 43210</a>
+                                <a href="tel:+919545661315" className="text-foreground/90 hover:text-accent transition-colors">+91 9545661315</a>
                             </CardContent>
                         </Card>
                     </div>

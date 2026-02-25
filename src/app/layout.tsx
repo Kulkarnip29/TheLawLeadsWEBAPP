@@ -68,7 +68,7 @@ const structuredData = {
   "logo": `${SEO.url}/logo.png`,
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+91-9876543210", // Replace with actual phone
+    "telephone": "+91-9545661315", //  phone number
     "contactType": "customer service",
     "areaServed": "IN",
     "availableLanguage": ["en", "hi", "mr"]

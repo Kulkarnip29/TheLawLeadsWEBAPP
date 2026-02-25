@@ -36,7 +36,7 @@ const formSchema = z.object({
 
 export default function InquiryForm() {
     const { toast } = useToast();
-    const WHATSAPP_NUMBER = "919876543210"; // Replace with actual number
+    const WHATSAPP_NUMBER = "919545661315"; // Phone  number
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
@@ -51,7 +51,7 @@ export default function InquiryForm() {
 
     function onSubmit(values: z.infer<typeof formSchema>) {
         const inquiryMessage = `Hello The Law Leads Institute,
-I would like to book a free demo class.
+I would get free study material.
 
 *Name:* ${values.name}
 *Email:* ${values.email}
@@ -86,18 +86,19 @@ ${values.message ? `*Message:* ${values.message}` : ''}`;
                                     <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                                         <Phone className="w-5 h-5 text-accent" />
                                     </div>
-                                    <span className="font-semibold">+91 98765 43210</span>
+                                    <span className="font-semibold">+91 95456 61315</span>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                                         <Mail className="w-5 h-5 text-accent" />
                                     </div>
-                                    <span className="font-semibold">info@thelawleads.com</span>
+                                    <span className="font-semibold">thelawleads1@gmail.com</span>
                                 </div>
                             </div>
                         </div>
                         <div className="lg:col-span-3 p-8 md:p-12">
-                            <Form {...form}>
+                            <Form {...form}>  
+                                <h2 className="text-3xl md:text-4xl font-black mb-6 leading-tight">Get Free Study Material </h2>
                                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                                     <div className="grid md:grid-cols-2 gap-6">
                                         <FormField
@@ -182,7 +183,7 @@ ${values.message ? `*Message:* ${values.message}` : ''}`;
                                     />
                                     
                                     <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-black text-lg py-7 rounded-2xl shadow-xl transition-all hover:scale-[1.02]">
-                                        Book My Free Demo
+                                        Book My Free Demo.
                                     </Button>
                                 </form>
                             </Form>

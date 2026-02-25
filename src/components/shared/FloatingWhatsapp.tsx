@@ -19,7 +19,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
   );
 
 export default function FloatingWhatsapp() {
-  const WHATSAPP_NUMBER = "919876543210"; // Replace with your actual number
+  const WHATSAPP_NUMBER = "919545661315"; // Whatsapp  number
   const message = "Hello The Law Leads! I'm interested in your courses.";
   const whatsappURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
