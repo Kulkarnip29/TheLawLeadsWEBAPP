@@ -29,8 +29,8 @@ export const targetExamYear = currentYear + 1;
 export const videoSection = {
   title: "Experience Our Excellence",
   subtitle: "Watch our introductory video to understand our unique teaching methodology and how we help students achieve their dreams in the legal field.",
-  videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
-  youtubeChannel: "https://www.youtube.com/@thelawleads"
+  videoUrl: "https://www.youtube.com/embed/xM1ba7J-jZo?si=QjIe9Y1OD9OCKEp_&amp;start=00",
+  youtubeChannel: "https://youtube.com/@thelawleads-tll?si=l8YUoVRWq4MhHAH6"
 };
 
 export const courses = [
@@ -267,7 +267,7 @@ export const faculty = [
   {
     name: "Ms. Aishwarya Kulkarni",
     title: "Legal Head",
-    bio: "University Gold Medalist",
+    bio: "University Gold Medalist & Legal anayst with expertise in Constitutional Law and Legal Reasoning.",
     image: {
       imageUrl: "/Photos/faculty-1.png",
       description: "Profile photo of Adv. Priya Singh",

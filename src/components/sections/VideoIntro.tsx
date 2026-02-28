@@ -43,7 +43,7 @@ export default function VideoIntro() {
                         </div>
                         
                         <div className="pt-4 flex items-center justify-center lg:justify-start gap-4 text-xs font-bold text-foreground/40 uppercase tracking-widest">
-                            <span className="flex items-center gap-1.5"><Play className="w-3 h-3 text-accent" /> 50+ Lectures Free</span>
+                            <span className="flex items-center gap-1.5"><Play className="w-3 h-3 text-accent" /> 1'st Lecture Free</span>
                             <span className="w-1 h-1 rounded-full bg-foreground/20"></span>
                             <span>Expert Guidance</span>
                         </div>
@@ -71,7 +71,7 @@ export default function VideoIntro() {
                                 </div>
                                 <div>
                                     <p className="text-xs font-black text-foreground/40 uppercase tracking-tighter">Watch Duration</p>
-                                    <p className="text-lg font-black text-primary">12 Minutes</p>
+                                    <p className="text-lg font-black text-primary">5.33 Minutes</p>
                                 </div>
                             </div>
                         </div>

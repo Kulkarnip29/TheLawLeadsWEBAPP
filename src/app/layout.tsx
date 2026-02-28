@@ -8,7 +8,7 @@ const SEO = {
   title: "The Law Leads | Best Judiciary & Law Entrance Coaching in Maharashtra",
   description: "Join The Law Leads, the best law coaching institute in Latur, Maharashtra for Judiciary, CLAT PG, and LLM entrance exam preparation. Get expert guidance, comprehensive law notes, and free demo classes.",
   url: "https://thelawleads.com", // Replace with your actual domain
-  ogImage: "/og-image.png" // Replace with your actual OG image path
+  ogImage: "public/TLLLOG.jpg" // Replace with your actual OG image path
 };
 
 export const metadata: Metadata = {

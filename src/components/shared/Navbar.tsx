@@ -39,15 +39,25 @@ export default function Navbar() {
     >
       <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/icon.jpg"
-              alt="The Law Leads Logo"
-              width={160}
-              height={40}
-              priority
-            />
+
+          {/* ✅ Updated Logo Section */}
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative h-12 w-12 rounded-s-none">
+              <Image
+                src="/icon.png"
+                alt="The Law Leads Logo"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+
+            {/* Hide on mobile, show on md and above */}
+            <span className="hidden md:block text-lg font-semibold tracking-wide text-primary">
+              THE LAW LEADS
+            </span>
           </Link>
+          {/* ✅ End Logo Section */}
 
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (

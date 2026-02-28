@@ -21,11 +21,10 @@ export default function Footer() {
           <div className="space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src="/icon.jpg"
+                src="/icon.png"
                 alt="The Law Leads Logo"
-                width={150}
+                width={50}
                 height={45}
-                className="brightness-0 invert"
                 priority
               />
             </Link>
@@ -35,17 +34,46 @@ export default function Footer() {
               and high-quality educational resources since 2015.
             </p>
 
+            {/* ✅ Updated Social Media Section */}
             <div className="flex gap-4">
-              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
-                >
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
+              <a
+                href="https://www.facebook.com/share/1bAdezuYSS/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.instagram.com/the_law_leads?igsh=MWk5bXJ6cTMwanNpMg=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/siddheshwar-patane-0736163b1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
             </div>
+            {/* ✅ End Social Media Section */}
+
           </div>
 
           {/* Courses */}
