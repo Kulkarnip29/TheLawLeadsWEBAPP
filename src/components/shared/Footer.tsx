@@ -16,7 +16,6 @@ export default function Footer() {
     <footer className="bg-primary text-primary-foreground border-t-8 border-accent">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-
           {/* Brand Section */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
@@ -73,7 +72,6 @@ export default function Footer() {
               </a>
             </div>
             {/* ✅ End Social Media Section */}
-
           </div>
 
           {/* Courses */}
@@ -105,7 +103,8 @@ export default function Footer() {
               <li className="flex gap-4">
                 <MapPin className="w-6 h-6 text-accent flex-shrink-0" />
                 <span className="text-primary-foreground/70 font-medium">
-                  Trichandra Ornament, 501 Fifth Floor, Barshi Road, Latur - 413512
+                  Trichandra Ornament, 501 Fifth Floor, Barshi Road, Latur -
+                  413512
                 </span>
               </li>
 
@@ -178,6 +177,59 @@ export default function Footer() {
           <p className="text-sm font-bold text-primary-foreground/40">
             &copy; {currentYear} THE LAW LEADS PVT LTD. ALL RIGHTS RESERVED.
           </p>
+        </div>
+
+        {/* Developer Signature */}
+        <div className="mt-6 text-center">
+          <div className="relative inline-block group">
+            {/* Visible Brand Name */}
+            <div
+              className="
+        text-xs 
+        font-semibold 
+        text-primary-foreground/15 
+        md:text-primary-foreground/10
+        transition-all 
+        duration-500 
+        cursor-pointer
+        select-none
+        group-hover:text-primary-foreground/70
+      "
+            >
+              BrandoSpire
+              <span className="text-red-500 ml-1">❤</span>
+            </div>
+
+            {/* Hidden Info (Hover / Click Reveal) */}
+            <div
+              className="
+        absolute 
+        left-1/2 
+        -translate-x-1/2 
+        top-full 
+        mt-3 
+        w-max
+        px-4 
+        py-2 
+        rounded-xl 
+        bg-primary 
+        text-white 
+        text-xs 
+        opacity-0 
+        scale-95
+        pointer-events-none
+        transition-all 
+        duration-300
+        group-hover:opacity-100
+        group-hover:scale-100
+        group-hover:pointer-events-auto
+        shadow-xl
+      "
+            >
+              <p className="font-semibold">Mr. Prasad Kulkarni</p>
+              <p className="text-[11px] opacity-80">+91 9607482906</p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

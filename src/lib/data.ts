@@ -344,32 +344,57 @@ export const studyMaterials = [
 
 export const testimonials = [
   {
-    quote: 'The Law Leads has the best faculty for judiciary coaching in Maharashtra. Their guidance was instrumental in my success.',
-    name: 'Ananya Deshmukh',
-    title: 'Civil Judge, Maharashtra',
+    quote: 'From daily current affairs updates to full-length mock tests, everything was perfectly structured. The mentors constantly motivated us and guided us personally. The Law Leads helped me achieve my CLAT dream.',
+    name: 'Karan T.',
+    title: 'CLAT Qualified',
     rating: 5,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-1'),
   },
   {
-    quote: 'I cleared the CLAT PG exam in my first attempt, thanks to the structured curriculum and excellent mock tests provided by this institute.',
-    name: 'Rohan Joshi',
-    title: 'NLSIU Bangalore, LLM',
+    quote: 'The Law Leads completely changed my preparation strategy. The structured notes, regular mock tests, and revision sessions helped me stay consistent. Because of their guidance, I successfully qualified SET (Law). Truly grateful for the mentorship and clarity they provided!',
+    name: 'Shraddha P.',
+    title: 'SET (Law) Qualified',
     rating: 5,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-2'),
   },
   {
-    quote: 'The law notes are concise, updated, and a lifesaver for last-minute revisions. Highly recommended for any law student.',
-    name: 'Priya Mehta',
-    title: 'Law Student',
+    quote: 'Paper 1 and Law Paper 2 were simplified in the most practical way. The PYQ discussions and concept-based teaching made difficult topics easy to understand. The Law Leads played a major role in helping me qualify UGC NET.',
+    name: 'Adv. Sameer R. Shaikh',
+    title: 'UGC NET (Law) Qualified',
     rating: 4,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-3'),
   },
     {
-    quote: 'A perfect blend of experienced teachers and a supportive learning environment. The best law classes in Latur, without a doubt.',
-    name: 'Sameer Patil',
-    title: 'Judicial Aspirant',
+    quote: 'The CET-specific strategy and speed-building techniques were extremely helpful. Daily practice tests and performance analysis improved my accuracy and confidence. I secured a good score in MH-CET Law thanks to The Law Leads!',
+    name: 'Omprakash K. Jadhav',
+    title: ' MH-CET Law Qualified',
     rating: 5,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-4'),
+  },
+
+  {
+    quote: 'The CET-specific strategy and speed-building techniques were extremely helpful. Daily practice tests and performance analysis improved my accuracy and confidence. I secured a good score in MH-CET Law thanks to The Law Leads!',
+    name: 'Anjali S.',
+    title: 'MH-CET Law Qualified',
+    rating: 5,
+    image: PlaceHolderImages.find(img => img.id === 'testimonial-5'),
+  },
+
+  
+  {
+    quote: 'What I liked most was the personal mentorship and doubt-solving sessions. The mock test environment was exactly like the real exam. The Law Leads gave me the right direction and motivation to succeed.',
+    name: 'Pratik M.',
+    title: 'MH-CET Law Qualified',
+    rating: 5,
+    image: PlaceHolderImages.find(img => img.id === 'testimonial-6'),
+  },
+
+  {
+    quote: 'The Legal Reasoning and Current Affairs sessions were outstanding. The faculty focused on concept clarity and smart elimination techniques. Because of their guidance, I secured admission through CLAT. Highly recommended!',
+    name: 'Shabnam R.',
+    title: 'CLAT Qualified',
+    rating: 5,
+    image: PlaceHolderImages.find(img => img.id === 'testimonial-7'),
   },
 ];
 
