@@ -9,22 +9,24 @@ export const navLinks = [
 ];
 
 export const stats = [
-  { value: '10+', label: 'Years of Experience' },
+  { value: '5+', label: 'Years of Experience' },
   { value: '500+', label: 'Successful Students' },
   { value: '95%', label: 'Success Rate' },
   { value: '50+', label: 'Courses & Materials' },
 ];
 
 export const marqueeItems = [
-  "New batches for Judiciary starting soon!",
+  "New batches for Law Entrance Exams starting soon!",
   "Register for the All India Mock Test.",
-  "Free demo class available this weekend.",
-  "Our Toppers: Ananya Deshmukh secured Rank 1.",
+  "Free demo class available.",
+  "SET NET JRF Law coaching now open for registration.",
+  "AIBE preparation course",
+  // "Our Toppers: Ananya Deshmukh secured Rank 1.",
   "Check out our new comprehensive study materials."
 ];
 
 export const currentYear = new Date().getFullYear();
-export const targetExamYear = currentYear + 1;
+export const targetExamYear = currentYear + 1; // Assuming the target exam year is the next calendar year
 
 export const videoSection = {
   title: "Experience Our Excellence",
@@ -56,8 +58,20 @@ export const courses = [
       tagline: 'Grab the Deal Now!'
     }
   },
+
+  {
+    slug: 'UGC-NET-JRF-SET-LAW',
+    title: `UGC-NET/JRF/SET LAW ${targetExamYear}`,
+    description: 'Specialized coaching for UGC-NET/JRF/SET Law entrance exams.',
+    icon: 'Target',
+    promo: {
+      badge: 'Popular',
+      // discount: '15% OFF',
+      tagline: 'Grab the Deal Now!'
+    }
+  },
   // {
-  //   slug: 'judiciary-coaching',
+  //   slug: 'Judiciary Coaching',
   //   title: `Judiciary Coaching ${targetExamYear}`,
   //   description: 'In-depth preparation for Civil Judge and other state judiciary exams.',
   //   icon: 'BookOpen',
@@ -243,24 +257,25 @@ export const detailedCourses: Record<string, any> = {
 };
 
 export const faculty = [
-  {
-    name: "Ms. Shraddha Choudhary",
-    title: "Meet The Founder",
-    bio: "SET, NET(JRF)PH.D PURSUING, 5+ years of teaching experience, and a passion for empowering law aspirants.",
-    image: {
-      imageUrl: "/Photos/Faculty-2.jpg",
-      description: "Profile photo of Dr. Alok Sharma",
-      imageHint: "Director and Founder"
-    }
-  },
 {
     name: "Mr. Siddheshwar Patane",
     title: "Founder & Director",
-    bio: "Learn Law, Leads the future.",
+    bio: "Learn Law, Lead the future.",
     image: {
-      imageUrl: "/Photos/faculty-3.jpg",
+      imageUrl: "/Photos/MD&Founder.jpg", 
       description: "Profile photo of Mr. Siddheshwar Patane",
       imageHint: "MD"
+    }
+  },
+
+  {
+    name: "Ms. Shraddha Choudhary",
+    title: "Coach & Mentor",
+    bio: "SET, NET(JRF)PH.D PURSUING, 5+ years of teaching experience, and a passion for empowering law aspirants.",
+    image: {
+      imageUrl: "/Photos/Shraddha_mam.jpg",
+      description: "Profile photo of Dr. Shraddha Choudhary",
+      imageHint: "Mentor & Coach"
     }
   },
 
@@ -430,8 +445,10 @@ export const footerLinks = {
   courses: [
     { name: '5-Year LLB', href: '#courses' },
     { name: '3-Year LLB', href: '#courses' },
-    { name: 'Judiciary Coaching', href: '#courses' },
+    // { name: 'Judiciary Coaching', href: '#courses' },
     { name: 'CLAT PG', href: '#courses' },
+    { name: 'UGC NET/JRF/SET Law', href: '#courses' },
+    { name: 'AIBE Preparation', href: '#courses' },
   ],
   company: [
     { name: 'About Us', href: '#about' },
@@ -446,13 +463,13 @@ export const footerLinks = {
 };
 
 export const seoKeywords = [
-  'Judiciary Coaching in Maharashtra',
+  // 'Judiciary Coaching in Maharashtra',
   'Law Entrance Exam Coaching',
   'CLAT PG Coaching Institute',
   'Law Notes PDF',
   'Law Classes in Latur',
   'Best Law Coaching Institute',
-  'Judiciary Exam Preparation India',
+  // 'Judiciary Exam Preparation India',
   'Law Exam Training Institute',
   'MH-CET Law 5-Year',
   'MH-CET Law 3-Year'
@@ -483,16 +500,16 @@ export const internshipOpportunities = [
             "Potential for pre-placement offers (PPO) based on performance."
         ]
     },
-    {
-        title: "Judicial Clerkship Guidance",
-        icon: "Briefcase",
-        description: "Personalized mentorship for aspiring judicial clerks to navigate the application process and interviews.",
-        details: "This unique program offers an exciting opportunity for graduates aiming for the prestigious role of a Judicial Clerk. You will receive the best guidance from our professional faculty, including retired judges, who will mentor you through every step of the process. Our supportive work culture ensures you are well-prepared and confident.",
-        benefits: [
-            "One-on-one mentorship for crafting applications and SOPs.",
-            "Mock interview sessions with detailed feedback.",
-            "Understand the day-to-day responsibilities of a clerk.",
-            "Build a network within the judicial community."
-        ]
-    }
+    // {
+    //     title: "Judicial Clerkship Guidance",
+    //     icon: "Briefcase",
+    //     description: "Personalized mentorship for aspiring judicial clerks to navigate the application process and interviews.",
+    //     details: "This unique program offers an exciting opportunity for graduates aiming for the prestigious role of a Judicial Clerk. You will receive the best guidance from our professional faculty, including retired judges, who will mentor you through every step of the process. Our supportive work culture ensures you are well-prepared and confident.",
+    //     benefits: [
+    //         "One-on-one mentorship for crafting applications and SOPs.",
+    //         "Mock interview sessions with detailed feedback.",
+    //         "Understand the day-to-day responsibilities of a clerk.",
+    //         "Build a network within the judicial community."
+    //     ]
+    // }
 ];

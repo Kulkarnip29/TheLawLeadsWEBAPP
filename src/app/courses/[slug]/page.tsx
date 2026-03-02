@@ -335,7 +335,7 @@ export default function CourseDetailPage() {
                                     <Target className="w-5 h-5" /> Expert Guidance
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </main>

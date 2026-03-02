@@ -43,7 +43,7 @@ export default function Courses() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-6 border-accent text-accent animate-pulse px-6 py-2 rounded-full font-black uppercase tracking-widest text-[10px]">
-            <Sparkles className="w-4 h-4 mr-2" /> Special Enrollment Offers Live
+            {/* <Sparkles className="w-4 h-4 mr-2" /> Special Enrollment Offers Live */}
           </Badge>
           <h2 className="text-4xl lg:text-6xl font-black text-primary mb-6 leading-tight tracking-tighter">
             Our Premier Courses

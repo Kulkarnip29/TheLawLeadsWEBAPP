@@ -58,7 +58,7 @@ const AnimatedCounter = ({ value, label, index }: { value: string, label: string
         "text-center p-6 md:p-8 rounded-[2.5rem] bg-primary/5 transition-all duration-700",
         isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
       )}
-      style={{ transitionDelay: `${index * 150}ms` }}
+      style={{ transitionDelay: `${index * 20}ms` }}
     >
       <p className="text-4xl md:text-6xl lg:text-7xl font-black text-primary tracking-tighter mb-2">
         {count}{value.includes('+') ? '+' : value.includes('%') ? '%' : ''}

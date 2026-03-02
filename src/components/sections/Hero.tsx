@@ -42,11 +42,11 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-primary/30"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <div className="inline-block px-6 py-2 mb-8 rounded-full glassmorphism text-white font-bold text-xs md:text-sm tracking-widest uppercase animate-fade-in-up">
-            #Welcome to The Law Leads – Online Coaching for Law Students &amp; Aspirants
+            #Welcome to The Law Leads – Online + Offline  Coaching for Law Students &amp; Aspirants
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-8 leading-[1.1] text-white" style={{ textShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
-            <span className="block text-accent">EXCELLENCE</span>
-            <span className="block italic">IS OUR HABIT.</span>
+            <span className="block text-accent">STUDY SMART</span>
+            <span className="block italic">NOT HARDER.</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg md:text-2xl text-white/90 mb-12 font-medium leading-relaxed drop-shadow-md px-4">
             Your definitive path to success in LAW entrance Exam (LLB 3 years & 5 yrars), CLAT PG & LLM exams.
