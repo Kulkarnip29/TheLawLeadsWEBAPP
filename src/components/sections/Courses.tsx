@@ -49,7 +49,7 @@ export default function Courses() {
             Our Premier Courses
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto leading-relaxed font-medium">
-            Expertly crafted courses designed for guaranteed success in judiciary and law entrance exams. Join thousands of successful students.
+            Expertly crafted courses designed for guaranteed success in law entrance exams. Join thousands of successful students.
           </p>
         </div>
 
