@@ -31,7 +31,7 @@ export default function About() {
                                 />
                             )}
                         </div>
-                        <div className="absolute -bottom-10 -right-10 glassmorphism p-8 rounded-3xl hidden md:block animate-float">
+                        <div className="absolute -bottom-10 -right-20 glassmorphism p-5 rounded-3xl hidden md:block animate-float">
                             <p className="text-4xl font-black text-primary">5+</p>
                             <p className="text-sm font-bold text-foreground/60 uppercase tracking-tighter">Years Success</p>
                         </div>

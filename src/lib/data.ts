@@ -11,18 +11,19 @@ export const navLinks = [
 export const stats = [
   { value: '5+', label: 'Years of Experience' },
   { value: '500+', label: 'Successful Students' },
-  { value: '95%', label: 'Success Rate' },
+  // { value: '95%', label: 'Success Rate' },
   { value: '50+', label: 'Courses & Materials' },
 ];
 
 export const marqueeItems = [
-  "New batches for Law Entrance Exams starting soon!",
-  "Register for the All India Mock Test.",
-  "Free demo class available.",
-  "SET NET JRF Law coaching now open for registration.",
-  "AIBE preparation course",
-  // "Our Toppers: Ananya Deshmukh secured Rank 1.",
-  "Check out our new comprehensive study materials."
+  "New batches for Law Entrance Exams Live Now!",
+  // "Register for the All India Mock Test.", //removed
+  "Free Demo classes available On App.",
+  //"SET NET JRF Law coaching now open for registration.",
+  "UGC-NET, MH-SET(Both Papers) Batches are Open Now for Registration.",
+  "Registration Open for AIBE-XXI Crash course",
+  // "Our Toppers: Ananya Deshmukh secured Rank 1.",//removed
+  "Check out our updated Comprehensive Study Materials on App."
 ];
 
 export const currentYear = new Date().getFullYear();
@@ -43,60 +44,60 @@ export const courses = [
     icon: 'Gavel',
     promo: {
       badge: 'Bestseller',
-      discount: '20% OFF',
+      discount: 'Upto 40% OFF*',
       tagline: 'Limited Time Early Bird Offer'
     }
   },
   {
     slug: 'mh-cet-law-3-year',
-    title: `MH-CET LAW (3-Year LLB) ${targetExamYear}`,
+    title: `MH-CET LAW (3-Year LLB)`,
     description: 'Specialized coaching for the 3-Year LLB entrance exam for graduates.',
     icon: 'Scale',
     promo: {
       badge: 'Popular',
-      discount: '15% OFF',
+      discount: ' Upto 40% OFF*',
       tagline: 'Grab the Deal Now!'
     }
   },
 
   {
-    slug: 'UGC-NET-JRF-SET-LAW',
-    title: `UGC-NET/JRF/SET LAW ${targetExamYear}`,
-    description: 'Specialized coaching for UGC-NET/JRF/SET Law entrance exams.',
+    slug: 'UGC-NET (JRF)/MH-SET LAW',
+    title: `UGC-NET (JRF)/MH-SET LAW`,
+    description: 'Specialized coaching for UGC-NET (JRF)/MH-SET LAW entrance exams.',
     icon: 'Target',
     promo: {
-      badge: 'Popular',
-      // discount: '15% OFF',
+      badge: 'Bestseller',
+      discount: ' Upto 30% OFF*',
       tagline: 'Grab the Deal Now!'
     }
   },
-  // {
-  //   slug: 'Judiciary Coaching',
-  //   title: `Judiciary Coaching ${targetExamYear}`,
-  //   description: 'In-depth preparation for Civil Judge and other state judiciary exams.',
-  //   icon: 'BookOpen',
-  //   promo: {
-  //     badge: 'New Batch',
-  //     discount: 'Free Demo',
-  //     tagline: 'Live Interactive Sessions'
-  //   }
-  //},
   {
-    slug: 'clat-pg-prep',
-    title: `CLAT PG & LLM Prep ${targetExamYear}`,
-    description: 'Guidance for top university LLM and CLAT PG entrance exams.',
+    slug: 'AIBE-XXI Preparation',
+    title: `AIBE-XXI Preparation`,
+    description: 'Special 30 days crash course for AIBE-XXI exam preparation with expert guidance and comprehensive materials.',
+    icon: 'BookOpen',
+    promo: {
+      badge: 'New Batch',
+      // discount: 'Free Demo',
+      tagline: 'Live Interactive Sessions'
+    }
+  },
+  {
+    slug: 'CLAT-prep',
+    title: `CLAT Prep`,
+    description: 'From Prepartion to Addmission in Top National Law Universities (NLUs) in India.',
     icon: 'FileText',
     promo: {
-      badge: 'Scholarship',
-      discount: 'Up to 50%',
-      tagline: 'Based on Mock Performance'
+      // badge: 'Scholarship',
+       discount: 'Upto 40% OFF*',
+      // tagline: 'Based on Mock Performance'
     }
   }
 ];
 
 export const detailedCourses: Record<string, any> = {
   'mh-cet-law-5-year': {
-    title: `MH-CET LAW (5-Year LLB) ${targetExamYear}`,
+    title: `MH-CET LAW (5-Year LLB) `,
     subtitle: 'Turn Your Dream of Becoming a Lawyer into Reality.',
     whatIs: `What is MH-CET LAW ${targetExamYear}?\nMH-CET Law (5-Year LLB) is a state-level entrance examination conducted by the State Common Entrance Test Cell, Maharashtra for admission to integrated law programs offered by government, aided, and private law colleges across Maharashtra.`,
     examDetails: [
@@ -431,14 +432,14 @@ export const faqs = [
 
 export const aboutContent = {
   title: "Know About The Law Leads (TLL)",
-  description: "The Law Leads is an online learning platform dedicated to helping students prepare for major lawentrance and competitive exams such as Common Law Admission Test (CLAT), Law Entrance CET,UGC NET (Law), SET Law, and All India Bar Examination (AIBE).",
+  description: "The Law Leads is an online learning platform dedicated to help students prepare for major Law Entrance and Competitive Exams such as Common Law Admission Test (CLAT), AILET, UGC NET (Law), MH SET (Law),  MH-CET (Law) and All India Bar Examination (AIBE).",
   standOut: {
     title: "Why We Stand Out",
-    description: "At The Law Leads, we believe that talent should never be limited by resources. Our mission is tosimplify the law and empower every student with the right guidance, quality mentorship, anddedicated support to achieve excellence in the legal field.",
+    description: "The Law Leads believes that talent should never be limited by resources. Our mission is to simplify the law and empower every student with the right guidance, quality mentorship, and dedicated support to achieve excellence in the legal field.",
     points: [
       'Intensive and well-structured courses',
       'Qualified, experienced faculties and dedicated mentors',
-      'Affordable and accessible learning for students from all sections of society',
+      'Affordable and accessible learning',
       'Focus on concept clarity, exam strategy, and confidence building'
     ]
   },
@@ -471,8 +472,8 @@ export const footerLinks = {
     { name: '5-Year LLB', href: '#courses' },
     { name: '3-Year LLB', href: '#courses' },
     // { name: 'Judiciary Coaching', href: '#courses' },
-    { name: 'CLAT PG', href: '#courses' },
-    { name: 'UGC NET/JRF/SET Law', href: '#courses' },
+    { name: 'CLAT', href: '#courses' },
+    { name: 'UGC NET(JRF)/ MH-SET Law', href: '#courses' },
     { name: 'AIBE Preparation', href: '#courses' },
   ],
   company: [

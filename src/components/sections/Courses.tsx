@@ -49,7 +49,7 @@ export default function Courses() {
             Our Premier Courses
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto leading-relaxed font-medium">
-            Expertly crafted courses designed for guaranteed success in law entrance exams. Join thousands of successful students.
+            Expertly designed courses for excellence in the field of Law.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function Courses() {
                 </div>
                 <div className="flex flex-col items-center gap-4">
                     <div className="bg-accent text-accent-foreground px-8 py-5 rounded-[2rem] font-black text-3xl shadow-2xl shadow-accent/20 transform -rotate-3 group-hover:rotate-0 transition-all duration-500 border-2 border-white/20">
-                        SAVE 20%
+                        SAVE 20%*
                     </div>
                     <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest text-accent animate-pulse">
                         <Clock className="w-4 h-4" /> Offer ends soon!
@@ -132,7 +132,7 @@ export default function Courses() {
                       </div>
                       <div>
                         <h2 className="text-xl font-black tracking-tight">{course.title}</h2>
-                        <p className="text-xs text-primary-foreground/70 font-bold uppercase tracking-widest">Enrollment for {targetExamYear} Open</p>
+                        <p className="text-xs text-primary-foreground/70 font-bold uppercase tracking-widest">Enrollment for  Open</p>
                       </div>
                     </div>
                     <DialogClose asChild>
