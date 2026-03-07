@@ -37,7 +37,7 @@ export default function VideoIntro() {
                             </Button>
                             <Button variant="outline" size="lg" asChild className="border-primary/20 text-primary hover:bg-primary/5 h-14 px-8 rounded-2xl font-bold">
                                 <Link href="#courses" className="flex items-center gap-2">
-                                    Browse All Classes <ArrowRight className="w-4 h-4" />
+                                    Browse All Courses <ArrowRight className="w-4 h-4" />
                                 </Link>
                             </Button>
                         </div>

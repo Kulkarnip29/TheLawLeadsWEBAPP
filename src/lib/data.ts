@@ -31,7 +31,7 @@ export const targetExamYear = currentYear + 1; // Assuming the target exam year 
 
 export const videoSection = {
   title: "Experience Our Excellence",
-  subtitle: "Watch our introductory video to understand our unique teaching methodology and how we help students achieve their dreams in the legal field.",
+  subtitle: "Watch our  videos to understand our unique teaching methodology and how we help students achieve their dreams in the legal field.",
   videoUrl: "https://www.youtube.com/embed/xM1ba7J-jZo?si=QjIe9Y1OD9OCKEp_&amp;start=00",
   youtubeChannel: "https://youtube.com/@thelawleads-tll?si=l8YUoVRWq4MhHAH6"
 };
@@ -78,7 +78,7 @@ export const courses = [
     icon: 'BookOpen',
     promo: {
       badge: 'New Batch',
-      // discount: 'Free Demo',
+      discount: 'Upto 30% OFF*',
       tagline: 'Live Interactive Sessions'
     }
   },
@@ -280,37 +280,37 @@ export const faculty = [
     }
   },
 
-  {
-    name: "Ms. Aishwarya Kulkarni",
-    title: "Legal Head",
-    bio: "University Gold Medalist & Legal anayst with expertise in Constitutional Law and Legal Reasoning.",
-    image: {
-      imageUrl: "/Photos/faculty-1.png",
-      description: "Profile photo of Adv. Priya Singh",
-      imageHint: "woman portrait"
-    }
-  },
+  // {
+  //   name: "Ms. Aishwarya Kulkarni",
+  //   title: "Legal Head",
+  //   bio: "University Gold Medalist & Legal anayst with expertise in Constitutional Law and Legal Reasoning.",
+  //   image: {
+  //     imageUrl: "/Photos/faculty-1.png",
+  //     description: "Profile photo of Adv. Priya Singh",
+  //     imageHint: "woman portrait"
+  //   }
+  // },
   
-  {
-    name: "Ms. Kasturi Pathrudkar",
-    title: "Legal Analyst",
-    bio: "Expert in  Law and Research.",
-    image: {
-      imageUrl: "/Photos/faculty-4.jpg",
-      description: "Profile photo of Dr. Neha Gupta",
-      imageHint: "woman professional"
-    }
-  },
-  {
-    name: "Mr. Amit Kathare",
-    title: "Legal Analyst",
-    bio: "Expert in legal research",
-    image: {
-      imageUrl: "/Photos/faculty-5.jpg",
-      description: "Profile photo of Mr. Sameer Khan",
-      imageHint: "man professional"
-    }
-  }
+  // {
+  //   name: "Ms. Kasturi Pathrudkar",
+  //   title: "Legal Analyst",
+  //   bio: "Expert in  Law and Research.",
+  //   image: {
+  //     imageUrl: "/Photos/faculty-4.jpg",
+  //     description: "Profile photo of Dr. Neha Gupta",
+  //     imageHint: "woman professional"
+  //   }
+  // },
+  // {
+  //   name: "Mr. Amit Kathare",
+  //   title: "Legal Analyst",
+  //   bio: "Expert in legal research",
+  //   image: {
+  //     imageUrl: "/Photos/faculty-5.jpg",
+  //     description: "Profile photo of Mr. Sameer Khan",
+  //     imageHint: "man professional"
+  //   }
+  //}
   // {
   //   name: "Adv. Meera Desai",
   //   title: "Civil Law Expert",
@@ -330,7 +330,7 @@ export const studyMaterials = [
   //   description: 'Complete set of notes covering all subjects for judiciary exams.',
   // },
   {
-    title: 'CLAT PG Mock Tests',
+    title: 'CLAT Mock Tests',
     description: 'A series of 20+ mock tests with detailed analysis.',
   },
   {
@@ -368,15 +368,15 @@ export const testimonials = [
     {
     quote: 'The CET-specific strategy and speed-building techniques were extremely helpful. Daily practice tests and performance analysis improved my accuracy and confidence. I secured a good score in MH-CET Law thanks to The Law Leads!',
     name: 'Omprakash K. Jadhav',
-    title: ' MH-CET Law Qualified',
-    rating: 5,
+    title: ' MH-SET Law Qualified',
+    rating: 4.5,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-4'),
   },
 
   {
     quote: 'The CET-specific strategy and speed-building techniques were extremely helpful. Daily practice tests and performance analysis improved my accuracy and confidence. I secured a good score in MH-CET Law thanks to The Law Leads!',
     name: 'Anjali S.',
-    title: 'MH-CET Law Qualified',
+    title: 'MH-SET Law Qualified',
     rating: 5,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-5'),
   },
@@ -385,8 +385,8 @@ export const testimonials = [
   {
     quote: 'What I liked most was the personal mentorship and doubt-solving sessions. The mock test environment was exactly like the real exam. The Law Leads gave me the right direction and motivation to succeed.',
     name: 'Pratik M.',
-    title: 'MH-CET Law Qualified',
-    rating: 5,
+    title: 'MH-SET Law Qualified',
+    rating: 4.5,
     image: PlaceHolderImages.find(img => img.id === 'testimonial-6'),
   },
 
@@ -403,19 +403,19 @@ export const blogPosts = [
   {
     title: 'How to Ace the CLAT PG Exam in 6 Months',
     description: 'A strategic guide for aspirants to crack the CLAT PG exam with a structured study plan.',
-    date: 'Oct 10, 2023',
+    date: 'March  8, 2026',
     image: PlaceHolderImages.find(img => img.id === 'blog-1'),
   },
   {
     title: 'Top 5 Myths About Judiciary Exam Preparation',
     description: 'Debunking common misconceptions about the judiciary exams to help you focus on what truly matters.',
-    date: 'Sep 22, 2023',
+    date: 'Jan 7, 2026',
     image: PlaceHolderImages.find(img => img.id === 'blog-2'),
   },
   {
     title: 'Choosing the Right LLM Specialization For You',
     description: 'A comprehensive overview of various LLM specializations to help you make an informed career choice.',
-    date: 'Aug 15, 2023',
+    date: 'July 25, 2025',
     image: PlaceHolderImages.find(img => img.id === 'blog-3'),
   },
 ];
@@ -505,7 +505,7 @@ export const internshipOpportunities = [
     {
         title: "Legal Research Interns",
         icon: "GraduationCap",
-        description: "Assist our faculty in researching case laws, preparing study materials, and analyzing legal trends.",
+        description: " Get Training on legal Research writing, legal drafting, contract drafting & Assist our faculty in researching case laws, preparing study materials, and analyzing legal trends.",
         details: "This is an exciting opportunity for aspiring legal minds to dive deep into the world of legal research. As a Legal Research Intern, you will work directly with our professional faculty, gaining hands-on experience in a supportive work culture. This role is perfect for those who want to build a strong foundation for their legal career.",
         benefits: [
             "Direct mentorship from retired judges and experienced advocates.",
@@ -518,7 +518,7 @@ export const internshipOpportunities = [
         title: "Corporate Connect Program",
         icon: "Building",
         description: "Get exposure with leading law firms and corporate legal departments through our exclusive network.",
-        details: "Our Corporate Connect Program is designed to bridge the gap between academic knowledge and the corporate world. This internship provides an invaluable opportunity to work with leading law firms and in-house legal teams. Experience a professional environment and a supportive work culture that fosters growth.",
+        details: "Our Corporate Connect Program is designed to bridge the gap between academic knowledge and the Practical Corporate World. This internship program offers an invaluable opportunity to work with leading law firms and in-house legal teams. Experience a professional environment and a supportive work culture that fosters growth.",
         benefits: [
             "Work on real-world corporate law assignments.",
             "Network with legal professionals from top-tier firms.",

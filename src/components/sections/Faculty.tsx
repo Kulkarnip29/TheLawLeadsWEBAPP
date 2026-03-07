@@ -20,17 +20,17 @@ export default function Faculty() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <span className="text-accent font-black tracking-widest uppercase text-sm mb-4 block">
-            Our Mentors
+          Our Team at The Law Leads
           </span>
           <h2 className="text-4xl lg:text-6xl font-black text-primary mb-6">
-            Learn from the Elite
+            {/* Learn from the Elite */}
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto leading-relaxed">
-            Learn from retired judges, experienced advocates, and academic scholars who are masters of their fields.
+          {/* experienced advocates, and academic scholars who are masters of their fields. */}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
           {faculty.map((member, index) => (
             <Card
               key={index}

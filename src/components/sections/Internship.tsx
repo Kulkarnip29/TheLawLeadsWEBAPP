@@ -33,29 +33,26 @@ export default function Internship() {
           </h2>
 
           <p className="text-lg lg:text-xl text-foreground/80 max-w-4xl mx-auto mb-6">
-            Start your journey as a Business Development Executive Intern, Data Analyst,
-            Legal Researcher, Content Creator, Graphic Designer, Video Editor,
-            HR Intern, Student Counselor Intern, or Marketing Incharge Intern.
+            Take first step toward a sucessfull career with us as Legal Research Intern. Apply now to kickstart your journey in the legal world!
           </p>
 
           <p className="text-base text-foreground/70 max-w-4xl mx-auto mb-6">
-            Open for Fresh Graduates, 12th Pass Students, and Undergraduates/Postgraduates
-            from LLB, LLM, BCom, MCom, BBA, BSc, BCA, MCA, BE, BTech, MBA and other streams.
+            Open For Law Students & Law Graduates.
           </p>
 
           {/* Internship Highlights */}
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <div className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-              2–3 Months Internship
+              1–3 Months Internship
             </div>
-            <div className="px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium">
+            {/* <div className="px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium">
               Performance-Based Stipend
-            </div>
+            </div> */}
             <div className="px-4 py-2 bg-green-100 text-green-600 rounded-full text-sm font-medium">
               Offer Letter Provided
             </div>
             <div className="px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">
-              Internship Completion Letter
+              Internship Letter
             </div>
             <div className="px-4 py-2 bg-purple-100 text-purple-600 rounded-full text-sm font-medium">
               Digital Certificate

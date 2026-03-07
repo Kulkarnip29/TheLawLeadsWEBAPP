@@ -37,7 +37,7 @@ export default function StudyMaterial() {
             </CardHeader>
             <CardContent className="space-y-3 text-foreground/80 text-sm">
               <p>Legal Principles & Facts</p>
-              <p>Indian Constitution</p>
+              <p>Constitution Of Indian</p>
               <p>Criminal Law (Basics)</p>
               <p>Law of Contracts</p>
               <p>Law of Torts</p>
@@ -86,7 +86,8 @@ export default function StudyMaterial() {
               <p>Vocabulary & Synonyms</p>
               <p>Antonyms & One Word Substitution</p>
               <p>Parts of Speech</p>
-              <p>Tense, Voice</p>
+              <p>Tenses</p>
+              <p>Active & Passive Voice</p>
               <p>Direct & Indirect Speech</p>
               <p>Comprehension</p>
 
