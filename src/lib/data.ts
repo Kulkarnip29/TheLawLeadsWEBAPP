@@ -282,7 +282,8 @@ export const faculty = [
 
   // {
   //   name: "Ms. Aishwarya Kulkarni",
-  //   title: "Legal Head",
+  //   //title: "Legal Head",
+  //   title: "Coach & Mentor",
   //   bio: "University Gold Medalist & Legal anayst with expertise in Constitutional Law and Legal Reasoning.",
   //   image: {
   //     imageUrl: "/Photos/faculty-1.png",

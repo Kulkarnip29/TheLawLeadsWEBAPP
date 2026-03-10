@@ -63,9 +63,10 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/siddheshwar-patane-0736163b1"
+                href="https://www.linkedin.com/in/s-p-0736163b1"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn Profile"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
               >
                 <Linkedin className="w-5 h-5" />

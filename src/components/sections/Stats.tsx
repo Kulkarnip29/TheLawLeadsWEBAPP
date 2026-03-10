@@ -73,11 +73,16 @@ export default function Stats() {
   return (
     <section className="py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12">
+
+        {/* only change here */}
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 md:gap-12">
+
           {stats.map((stat, idx) => (
             <AnimatedCounter key={stat.label} value={stat.value} label={stat.label} index={idx} />
           ))}
+
         </div>
+
       </div>
     </section>
   );
